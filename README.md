@@ -52,7 +52,7 @@ These findings indicate no evidence of unusually low variance in the selected Ge
 ## How to Run the Analysis
 
 1. Clone or download this repository  
-2. Open the R script `Toprak_Kayıran_Project.R`  
+2. Open the R script `analysis.R`  
 3. Ensure `ProjectData.csv` is located in the same directory  
 4. Run the script in R or RStudio  
 
