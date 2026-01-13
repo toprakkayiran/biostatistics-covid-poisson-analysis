@@ -1,6 +1,10 @@
-data <- read.csv("C:/Users/topra/Desktop/BMM 422/Project/ProjectData.csv",
-                 sep = ",",
-                 header = TRUE)
+#Biostatistics Project (BMM422)
+#Poisson-based variance analysis on Covid-19 daily death counts
+#Reproducible version: expects ProjectData.csv in the same directory
+
+set.seed(123)
+
+data <- read.csv("ProjectData.csv", sep = ",", stringsAsFactors = FALSE, header = TRUE)
 
 #Filtering Germany rows
 
@@ -198,4 +202,5 @@ results
 #consistent with the behavior expected by the Poisson model.
 #The Germany–USA comparison, on the other hand, reveals that the USA
 #had higher Covid-19 death rates throughout the period.
+
 
